@@ -1,0 +1,175 @@
+/*upload new font*/
+@font-face {
+    font-family: 'ledlightregular';
+    src: url('webfontkit2/ledlight-webfont.eot');
+    src: url('webfontkit2/ledlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit2/ledlight-webfont.woff2') format('woff2'),
+         url('webfontkit2/ledlight-webfont.woff') format('woff'),
+         url('webfontkit2/ledlight-webfont.ttf') format('truetype'),
+         url('webfontkit2/ledlight-webfont.svg#ledlightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mukokuseki_kitchenregular';
+    src: url('webfontkit2/mukokusekikitchen-webfont.eot');
+    src: url('webfontkit2/mukokusekikitchen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit2/mukokusekikitchen-webfont.woff2') format('woff2'),
+         url('webfontkit2/mukokusekikitchen-webfont.woff') format('woff'),
+         url('webfontkit2/mukokusekikitchen-webfont.ttf') format('truetype'),
+         url('webfontkit2/mukokusekikitchen-webfont.svg#mukokuseki_kitchenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#canvas{
+	background:#fff000;
+	/*opacity:0.5;*/
+}
+
+#number{
+	position: fixed;
+	left: 40px;
+	top: 42%;
+	display: block;
+}
+
+#weather{
+	margin: 0px;
+	width: 70%;
+	height: 200px;
+	position: fixed;
+	left: 40px;
+	bottom: 6%;
+}
+
+#temperature{
+	margin: 0px;
+	font-family: "mukokuseki_kitchenregular";
+	font-size: 230px;
+	font-style: normal;
+	color: black;
+}
+
+#condition{
+	margin: 0px;
+	font-family: "ledlightregular";
+	font-size: 70px;
+	font-style: normal;
+	color: #fff000;
+}
+
+#currentCity{
+	width: 282px;
+	height: 24px;
+	font-size: 15px;
+	margin-left: -5px;	
+	font-family: Arial, sans-serif;
+	color: #fff;
+	background-color: black;
+	border: none;
+	text-transform: capitalize;
+	outline: none;
+	position: fixed;
+	right:150px;
+	top: 10px;
+}
+
+#wrapper1{
+	height:27px;
+	width: 50px;
+	background-color: black;
+	position: fixed;
+	right:90px;
+	top: 10px;
+}
+
+#currentState{
+	height:27px;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	color: #fff;
+	background-color: black;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	position: fixed;
+	right:90px;
+	top: 10px;
+	cursor: pointer;
+}
+
+#submit{
+	height: 26px;
+	width: 32px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: black;
+	border: none;
+	outline: none;
+	text-transform: capitalize;
+	position: fixed;
+	right:47px;
+	top: 10px;
+	cursor: pointer;
+}
+
+#location{
+	margin: 0px;
+	width: 500px;
+	height: 200px;
+	position: fixed;
+	right: 445px;
+	top: 15px;
+}
+
+#place{
+	margin: 0px;
+	font-family: "ledlightregular";
+	font-size: 20px;
+	font-style: normal;
+	color: black;
+	text-align: right;
+}
+
+#celsius{
+	position: fixed;
+	top:45%;
+	left: 350px;
+	float: left;
+}
+
+#line{
+	background-color: black;
+	width: 73%;
+	height: 1px;
+	position: fixed;
+	top: 52%;
+	left: 350px;
+}
+
+#nyPic{
+	position: fixed;
+	bottom: 0;
+	right: 0;	
+}
+
+#madeIn{
+	position: fixed;
+	bottom: 20px;
+	left: 40px;	
+}
+
+
+
+
+
+
+
