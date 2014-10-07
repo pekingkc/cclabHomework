@@ -43,7 +43,7 @@ void loop() {
 
       // only toggle the LED if the new button state is HIGH
       if (buttonState == HIGH) {
-        ledState = !ledState;
+        ledState = !ledState; //ledstate is ledState de xiangfanzhi
       }
     }
   }
