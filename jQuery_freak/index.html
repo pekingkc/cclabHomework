@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- <meta charset="utf-8">
+
+	<title>Parallax.js | jQuery Example</title>
+
+	<!-- Behavioral Meta Data -->
+<!-- 	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> --> -->
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+
+	<div id="container" class="container">
+		<ul id="scene" class="scene">
+			
+			<!-- cyen squares -->
+			<li class="layer" data-depth="1.00"><img src="images/sqA.png"></li>
+			<li class="layer" data-depth="0.80"><img src="images/sqB.png"></li>
+			<li class="layer" data-depth="0.60"><img src="images/sqC.png"></li>
+
+			<!-- cover the quares -->
+			<li class="layer" data-depth="0.00"><img src="images/line_b.png"></li>
+
+			<!-- freak copywrite area -->
+			<li class="layer" data-depth="1.00"><img src="images/blank_w.png"></li>
+			<li class="layer" data-depth="0.00"><img src="images/blank_b.png"></li>
+
+			
+			<li class="layer" data-depth="1.00">
+				<a href="https://www.behance.net/pekingkc">
+					<img src="images/cw.png">
+				</a>
+			</li>
+			
+			<!-- avantar and eyes -->
+			<li class="layer" data-depth="0.80"><img src="images/einstein.png"></li>
+			<li class="layer" data-depth="1.00"><img src="images/eye1.png"></li>
+			<li class="layer" data-depth="0.70"><img src="images/eye2.png"></li>
+			<li class="layer" data-depth="0.10"><img src="images/eye3.png"></li>
+			
+			
+		</ul>
+	</div>
+
+	<div id="topcover"></div>
+	<div id="bottomcover"></div>
+
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/jquery.parallax.js"></script>
+	
+	<script>
+	$('#scene').parallax();
+	</script>
+
+</body>
+</html>
